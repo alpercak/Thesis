@@ -24,6 +24,7 @@ L_f=(1/n)*200*10^-6;
 C_f=n*300*10^-6;
 R_dc=(Vdc_n/(0.05*(S_b)/Vdc_n));
 w_f=2*pi*0.1*f_b;
+f_0 = 50;
 %% Control parameters
 %DC source and governor-turbine time constants
 tau_dc=0.05;tau_g=5;
